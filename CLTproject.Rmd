@@ -169,3 +169,5 @@ p + ggtitle("n = 36") +
   xlab("temperature") + ylab(" density")
 print(paste('mean = ', mean(my1000$k6),' sd = ',sd(my1000$k6)))
 ```
+
+I expected value to be 6 but I was off a little and instead it rounds up to 7 with the code. 
